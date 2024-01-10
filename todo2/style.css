@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(95, 132, 145);
+}
+.main{
+    margin: 0 45%;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
+h1{
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+input{
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+    border: 2px solid rgb(133, 239, 239);
+    margin-left: 20px;
+
+}
+#butt{
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    border: 2px solid rgb(133, 239, 239);
+    margin-left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.textArea ul{
+    margin: 5px 15px;
+
+    position: relative;
+    left: 5px;
+    
+    /* height: 30px;
+    width: 50px; */
+    font-size: 20px;
+    border: 2px solid black;
+     background-color: transparent;
+}
+.textArea ul b{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
